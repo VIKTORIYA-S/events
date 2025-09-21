@@ -48,6 +48,7 @@ document.addEventListener('keydown', function (event) {
 
 // //////////////////////////////////////////////////////////////
 const headerCol1 = document.querySelector('#th_col-1');
+headerCol1.style = 'cursor: pointer';
 
 headerCol1.addEventListener('click', () => {
 
